@@ -1,4 +1,3 @@
-import React from "react";
 import { CiDeliveryTruck } from "react-icons/ci";
 import { MdOutlineSecurity } from "react-icons/md";
 import { BsHouseDoor } from "react-icons/bs";
@@ -13,9 +12,9 @@ const WhyUs = () => {
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 text-gray-100 mt-6">
                     <div className="bg-secondary grid place-content-center p-6 rounded-md text-center">
                         <div className="flex items-center justify-center">
-                            <CiDeliveryTruck className="text-6xl block text-center" />
+                            <CiDeliveryTruck className="md:text-5xl text-4xl block text-center" />
                         </div>
-                        <h4 className="text-gray1 md:text-3xl text-2xl  ">
+                        <h4 className="text-gray1 md:text-2xl text-xl  ">
                             ডেলিভারি গ্যারান্টি
                         </h4>
                         <p className="text-base text-white pt-1">
@@ -25,9 +24,9 @@ const WhyUs = () => {
                     </div>
                     <div className="bg-secondary grid place-content-center p-6 rounded-md text-center">
                         <div className="flex items-center justify-center">
-                            <BsHouseDoor className="text-6xl block text-center" />
+                            <BsHouseDoor className="md:text-5xl text-4xl block text-center" />
                         </div>
-                        <h4 className="text-gray1 md:text-3xl text-2xl  ">
+                        <h4 className="text-gray1 md:text-2xl text-xl  ">
                             ডোরস্টেপ পিকআপ
                         </h4>
                         <p className="text-base text-white pt-1">
@@ -37,9 +36,9 @@ const WhyUs = () => {
                     </div>
                     <div className="bg-secondary grid place-content-center p-6 rounded-md text-center">
                         <div className="flex items-center justify-center">
-                            <MdOutlineSecurity className="text-6xl block text-center" />
+                            <MdOutlineSecurity className="md:text-5xl text-4xl block text-center" />
                         </div>
-                        <h4 className="text-gray1 md:text-3xl text-2xl  ">
+                        <h4 className="text-gray1 md:text-2xl text-xl  ">
                             সিকিউর হ্যান্ডলিং
                         </h4>
                         <p className="text-base text-white pt-1">

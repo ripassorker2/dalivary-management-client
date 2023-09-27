@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Banner = () => {
@@ -15,7 +16,12 @@ const Banner = () => {
                         <br />
                         লজিস্টিকস পৌঁছাবে আপনার লক্ষ্যে
                     </h2>
-                    <button className="btn-secondary mt-5">Contact us</button>
+                    <Link href={"/contact"}>
+                        <button className="btn-secondary mt-5">
+                            {" "}
+                            যোগাযোগ করুন
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

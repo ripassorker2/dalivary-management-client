@@ -32,7 +32,7 @@ const Navbar = () => {
                             href="/"
                             className="inline-block hover:text-primary duration-300 font-semibold "
                         >
-                            ড্যাশবোর্ড
+                            হোম
                         </Link>
                     </li>
                     <li>
@@ -40,13 +40,12 @@ const Navbar = () => {
                             href="/"
                             className="inline-block hover:text-primary duration-300 font-semibold "
                         >
-                            কুরিয়ার
+                            ড্যাশবোর্ড
                         </Link>
                     </li>
-
                     <li>
                         <Link
-                            href="/why-choose-us"
+                            href="/services"
                             className="inline-block hover:text-primary duration-300 font-semibold "
                         >
                             সেবা সমূহ
@@ -55,10 +54,18 @@ const Navbar = () => {
 
                     <li>
                         <Link
-                            href="/about"
+                            href="/contact"
                             className="inline-block hover:text-primary duration-300 font-semibold "
                         >
                             যোগাযোগ
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href="/about"
+                            className="inline-block hover:text-primary duration-300 font-semibold "
+                        >
+                            আমাদের সম্পর্কে
                         </Link>
                     </li>
                     <li>
