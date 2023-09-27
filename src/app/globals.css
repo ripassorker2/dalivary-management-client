@@ -29,4 +29,7 @@
     .sub-head {
         @apply text-[20px] text-secondary;
     }
+    .heading {
+        @apply md:text-3xl text-center text-xl pb-1  font-semibold;
+    }
 }

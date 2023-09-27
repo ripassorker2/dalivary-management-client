@@ -2,7 +2,7 @@ import React from "react";
 
 const TrackForm = () => {
     return (
-        <div className="mb-32 -mt-20">
+        <div className="mb-14 -mt-20">
             <div className="container ">
                 <div className="bg-primary rounded md:w-[70%] mx-auto shadow px-7 py-14 flex justify-center items-center flex-col">
                     <h2 className="text-white mb-2 text-lg">
