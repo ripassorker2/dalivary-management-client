@@ -9,19 +9,19 @@
 }
 .container {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding: 0 15px;
 }
 
 @layer base {
-    .description {
+    .desc {
         @apply text-gray-900 text-base;
     }
     .btn-primary {
-        @apply bg-primary px-4 py-2 rounded-[10px] text-white text-base font-semibold;
+        @apply bg-primary px-6  py-2 rounded-[6px] text-white text-base font-semibold;
     }
     .btn-secondary {
-        @apply bg-secondary px-4 py-2 rounded-[10px] text-white text-base font-semibold;
+        @apply bg-secondary px-6  py-2 rounded-[6px] text-white text-base font-semibold;
     }
     .d-flex {
         @apply flex justify-between items-center;
