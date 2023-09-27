@@ -1,9 +1,12 @@
+import AboutUs from "@/components/AboutUs";
+import VissionAndMission from "@/components/VissionAndMission";
 import React from "react";
 
 const About = () => {
     return (
         <div>
-            <h3>hello</h3>
+            <AboutUs />
+            <VissionAndMission />
         </div>
     );
 };

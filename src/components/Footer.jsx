@@ -49,13 +49,21 @@ const Footer = () => {
                                 উপকারী লিঙ্ক
                             </p>
 
-                            <ul className="mt-4 space-y-2 text-sm">
+                            <ul className="mt-4 space-y-2">
                                 <li>
                                     <a
                                         href="#"
                                         className=" transition hover:opacity-75 text-gray-200"
                                     >
-                                        Contact
+                                        যোগাযোগ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        className=" transition hover:opacity-75 text-gray-200"
+                                    >
+                                        সেবা সমূহ
                                     </a>
                                 </li>
 
@@ -64,16 +72,7 @@ const Footer = () => {
                                         href="#"
                                         className=" transition hover:opacity-75 text-gray-200"
                                     >
-                                        FAQs
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a
-                                        href="#"
-                                        className=" transition hover:opacity-75 text-gray-200"
-                                    >
-                                        Live Chat
+                                        আমাদের সম্পর্কে
                                     </a>
                                 </li>
                             </ul>
@@ -84,7 +83,7 @@ const Footer = () => {
                                 Legality
                             </p>
 
-                            <ul className="mt-4 space-y-2 text-sm">
+                            <ul className="mt-4 space-y-2 ">
                                 <li>
                                     <a
                                         href="#"
@@ -119,7 +118,7 @@ const Footer = () => {
                                 যোগাযোগের নম্বর
                             </p>
 
-                            <ul className="mt-4 space-y-1 text-sm">
+                            <ul className="mt-4 space-y-1 ">
                                 <li>
                                     <a
                                         href="#"
