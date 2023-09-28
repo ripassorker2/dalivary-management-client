@@ -84,7 +84,7 @@ const Navbar = () => {
                                 href="/"
                                 className="inline-block hover:text-primary duration-300 font-semibold mt-3 "
                             >
-                                কুরিয়ার
+                                হোম
                             </Link>
                         </li>
                         <li>
@@ -98,7 +98,7 @@ const Navbar = () => {
 
                         <li>
                             <Link
-                                href="/why-choose-us"
+                                href="/services"
                                 className="inline-block hover:text-primary duration-300 font-semibold mt-3 "
                             >
                                 সেবা সমূহ
@@ -107,10 +107,18 @@ const Navbar = () => {
 
                         <li>
                             <Link
-                                href="/about"
+                                href="/contact"
                                 className="inline-block hover:text-primary duration-300 font-semibold mt-3 "
                             >
                                 যোগাযোগ
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href="/about"
+                                className="inline-block hover:text-primary duration-300 font-semibold mt-3 "
+                            >
+                                আমাদের সম্পর্কে
                             </Link>
                         </li>
                         <li>
